@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(198, 198, 217);
+    height: 80px;
+}
+    
+header h1{
+    font-size: 60px;
+    color: whitesmoke;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;}
+
+    .hero, 
+    .apoios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;}
+
+    .box-img{
+        display:flex;
+        justify-content: center;
+        width: 50%;}
+
+        .box-img-pag{
+          display: flex;
+          justify-content: center;
+          width: 50%;
+        margin-left: 700px;}
+  
+    .box-txt{
+        display:flex;
+        flex-flow: row wrap;
+        width: 35%; }
+
+    .box-txt span{
+        color: darkblue;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      text-align: justify;}
+
+    .box-txt h2{
+        font-family:"Permanent Marker", cursive;
+        color:rgb(152, 105, 172);
+        font-weight:600;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        line-height: 50px;
+        align-items: right;}
+
+    .box-txt h3{
+        font-family:"Permanent Marker", cursive;
+        color:rgb(152, 105, 172);
+        font-weight:600;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 70px;}
+
+        .box-txt h5{
+          font-family:"Permanent Marker", cursive;
+          color:rgb(152, 105, 172);
+          font-weight:800;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          line-height: 70px;}
+
+          .box-txt h6{
+            font-family:"Permanent Marker", cursive;
+            color:rgb(152, 105, 172);
+            font-weight:800;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            line-height: 70px;}
+
+    .btn-hero{
+        background:rgb(152, 105, 172);
+        padding: 15px 25px;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color:rgb(223, 231, 238);
+        border-radius: 5px;
+        transition: 0.5s all;
+        margin-bottom: 30px;
+        margin-top: 10px;}
+        
+
+.btn-hero:hover{
+background: rgb(126, 130, 230);
+font-size: 18px;}
+
+
+.box-item{
+    width: 30%;
+    height: 350px;
+    background: rgb(234, 209, 234);
+    margin: 17px;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;}
+
+    .box-txt p {
+        margin-bottom:10px;
+        text-align: justify;}
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(152, 105, 172);
+        height: 100px;
+        margin-top: 100px;
+        color: rgb(226, 226, 226);
+        font-size:22px;
+    }
+
+    @media screen and (max-width:1200px){
+
+header h1{
+  font-size: 45px;
+}
+.hero{
+      flex-direction: column-reverse;
+}
+.box-txt{
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+  text-align: center;
+  padding: 40px 30px;
+}
+.box-txtp{
+  text-align: center;
+}
+.box-img{
+width: 200%;
+}
+.box-item{
+  width: 100%;
+  height: 600px;
+}
+footer{
+  font-size: 18px;
+  text-align: center;
+}
+}
+
+
+
+
+    
